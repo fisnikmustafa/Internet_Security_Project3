@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fisnik\\Desktop\\Projekti i 3 ne Internet Security - Web API\\Internet_Security_Project3\\TodoApp\\TodoApp.csproj": {}
+    "C:\\Users\\adnit\\Documents\\internetSecurity3\\TodoApp\\TodoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fisnik\\Desktop\\Projekti i 3 ne Internet Security - Web API\\Internet_Security_Project3\\TodoApp\\TodoApp.csproj": {
+    "C:\\Users\\adnit\\Documents\\internetSecurity3\\TodoApp\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fisnik\\Desktop\\Projekti i 3 ne Internet Security - Web API\\Internet_Security_Project3\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "C:\\Users\\adnit\\Documents\\internetSecurity3\\TodoApp\\TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "C:\\Users\\Fisnik\\Desktop\\Projekti i 3 ne Internet Security - Web API\\Internet_Security_Project3\\TodoApp\\TodoApp.csproj",
-        "packagesPath": "C:\\Users\\Fisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fisnik\\Desktop\\Projekti i 3 ne Internet Security - Web API\\Internet_Security_Project3\\TodoApp\\obj\\",
+        "projectPath": "C:\\Users\\adnit\\Documents\\internetSecurity3\\TodoApp\\TodoApp.csproj",
+        "packagesPath": "C:\\Users\\adnit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adnit\\Documents\\internetSecurity3\\TodoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adnit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -73,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
