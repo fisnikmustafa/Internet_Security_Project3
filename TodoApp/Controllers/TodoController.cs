@@ -2,11 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 using TodoApp.Data;
 using Microsoft.EntityFrameworkCore;
 using TodoApp.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace TodoApp.Controllers
 {
     [Route("api/[controller]")]     //api/todo
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 
     public class TodoController : ControllerBase
     {
