@@ -15,7 +15,12 @@
       "ProjectGuid": "89fad2db-1cbd-492b-a05f-62fc384f97c6",
       "DisplayName": "TodoApp",
       "ColorIndex": 1
+    },
+    "91d5693e-b4b9-4dc2-aa12-3ebdbe354632": {
+      "ProjectGuid": "91d5693e-b4b9-4dc2-aa12-3ebdbe354632",
+      "DisplayName": "TodoApp",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

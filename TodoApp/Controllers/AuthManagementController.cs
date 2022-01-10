@@ -9,11 +9,14 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using TodoApp.Models.DTOs.Responses;
 using TodoApp.Models.DTOs.Requests;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace TodoApp.Controllers
 {
     [Route("api/[controller]")]     // api/authmanagement
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class AuthManagementController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;

@@ -11,7 +11,7 @@ using TodoApp.Data;
 namespace TodoApp.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20220109021631_Adding authentication to our Api")]
+    [Migration("20220110125205_Adding authentication to our Api")]
     partial class AddingauthenticationtoourApi
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
